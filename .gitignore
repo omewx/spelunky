@@ -4,3 +4,7 @@ platforms
 plugins
 www
 *.swp
+.yarn/unplugged
+.yarn/install-state.gz
+.pnp.cjs
+.pnp.loader.mjs

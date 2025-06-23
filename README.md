@@ -1,12 +1,15 @@
 # Spelunky Classic HD HTML5
 
-HTML5 version of [Spelunky Classic HD](https://github.com/yancharkin/SpelunkyClassicHD).
+Web version of [Spelunky Classic HD](https://github.com/yancharkin/SpelunkyClassicHD).
 
-**This project is currently not in sync with the [parent project](https://github.com/yancharkin/SpelunkyClassicHD). For some reason, the HTML5 export failed in the latest version of GameMaker. I haven’t been able to identify the root cause yet.**
+<p align="center"><img src="src/pwa/assets/screenshots/screenshot_02.png" width="80%"></p>
 
-![screenshot](screenshots/screenshot_00.jpg)
+This version was built by targeting GX.games (not HTML5) in GameMaker and then modifying it. Essentially, it's a WebAssembly app, which means it should perform nearly as well as a native application.
 
-This version has a bit more bugs but also it has some nice features:
-- you can play it in [your browser](https://yancharkin.github.io/SpelunkyClassicHDhtml5/)
-- [builds for macOS, 64 bits builds for Linux and Windows, ARM builds for Linux (Electron)](https://github.com/yancharkin/SpelunkyClassicHDhtml5/releases)
-- touch input on any device that supports it (not only android)
+**It is available as:**
+
+- [PWA](https://yancharkin.github.io/SpelunkyClassicHDhtml5/) (playable online or installable as a standalone app)
+- [Electron  app for Linux, macOS and Windows](https://github.com/yancharkin/SpelunkyClassicHDhtml5/releases)
+ - [Cordova app for Android](https://github.com/yancharkin/SpelunkyClassicHDhtml5/releases)
+
+*Unless there's a specific reason not to, I recommend using the PWA version. More usage info can be found [here](https://github.com/yancharkin/SpelunkyClassicHDhtml5/blob/gh-pages/README.md). Non-PWA builds may not be available in the future.*
