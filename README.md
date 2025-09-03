@@ -9,7 +9,7 @@ This version was built by targeting GX.games (not HTML5) in GameMaker and then m
 **It is available as:**
 
 - [PWA](https://yancharkin.github.io/SpelunkyClassicHDhtml5/) (playable online or installable as a standalone app)
-- [Electron  app for Linux, macOS and Windows](https://github.com/yancharkin/SpelunkyClassicHDhtml5/releases)
- - [Cordova app for Android](https://github.com/yancharkin/SpelunkyClassicHDhtml5/releases)
+- [Electron  app for macOS, ~~Linux and Windows~~](https://github.com/yancharkin/SpelunkyClassicHDhtml5/releases)*
+- ~~[Cordova app for Android](https://github.com/yancharkin/SpelunkyClassicHDhtml5/releases)~~*
 
-*Unless there's a specific reason not to, I recommend using the PWA version. More usage info can be found [here](https://github.com/yancharkin/SpelunkyClassicHDhtml5/blob/gh-pages/README.md). Non-PWA builds may not be available in the future.*
+**The app can still be built for Linux, Windows, and Android, but I’ll no longer provide ready-to-use builds. Creating them takes time, and they offer no benefits over the PWA version. More PWA usage info can be found [here](https://github.com/yancharkin/SpelunkyClassicHDhtml5/blob/gh-pages/README.md).*
